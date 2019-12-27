@@ -7,9 +7,9 @@ An application made to find alternative food, select a product from a chosen cat
 To make it work, you will need Mysql installed. 
 
 But also to create a file name 'secret.py' at the root of the project containing the information of your database:
-HOST="YOUR_HOST"  
-USER="YOUR_USER"  
-PASSWD="YOUR_PASSWORD"  
+Host="YOUR_HOST"  
+User="YOUR_USER"  
+Passwd="YOUR_PASSWORD"  
 
 also, please install the modules listed in the requirement.txt file.
 
