@@ -15,7 +15,8 @@ also, please install the modules listed in the requirement.txt file.
 
 # HOW TO USE IT :
 
-Start the program by executing with python the file 'main.py'
+Start the program by executing with python the file 'main.py'.
+_(Wait approximately two minutes for data import and insertion.)_
 
 Then simply follow the instructions in the terminal it will lead you to find a product and suggest you a better alternative
 you can save it if you wish. Then you can consult every products saved. 
