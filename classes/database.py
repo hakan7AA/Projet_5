@@ -26,12 +26,12 @@ class Database:
 
     def create_database(self):
         """Create database if it doesn't exist, then update the connector."""
-        self.icursor.execute('CREATE DATABASE IF NOT EXISTS tusssa')
+        self.icursor.execute('CREATE DATABASE IF NOT EXISTS Base_OC5')
 
         self.connector = mysql.connector.connect(host=Host,
                                                  user=User,
                                                  passwd=Passwd,
-                                                 database='tusssa',
+                                                 database='Base_OC5',
                                                  buffered=True
                                                  )
 
