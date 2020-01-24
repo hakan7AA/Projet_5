@@ -108,7 +108,7 @@ class Main:
 
                 elif choice == '1':
                     alternative_already_insert =\
-                        database.get_products_registered(alternative[2])
+                        database.get_products_registered(product[2])
                     if not alternative_already_insert:
                         data_1 = (product[1], product[2],
                                   product[3], product[4], product[5])
